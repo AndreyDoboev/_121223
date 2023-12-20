@@ -86,7 +86,7 @@ public class Main {
         ZoneId zone = ZoneId.of("Canada/Eastern");
         ZonedDateTime zdt = ZonedDateTime.now(zone);
         System.out.println(zdt);
-
+        System.out.println("______________");
         DateTimeFormatter dtf = DateTimeFormatter.ofPattern("yyyy-MMMM-dd").withLocale(Locale.ENGLISH);
         LocalDate dateTime = LocalDate.parse("2023-January-02", dtf);
         System.out.println(dateTime);
