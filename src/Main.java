@@ -100,5 +100,6 @@ public class Main {
         System.out.println("Строка для смерживания");
 
         System.out.println("Вот это строка будет в конфликте");
+
     }
 }
