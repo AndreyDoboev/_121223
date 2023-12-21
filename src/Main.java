@@ -91,5 +91,9 @@ public class Main {
         DateTimeFormatter dtf = DateTimeFormatter.ofPattern("yyyy-MMMM-dd").withLocale(Locale.ENGLISH);
         LocalDate dateTime = LocalDate.parse("2023-January-02", dtf);
         System.out.println(dateTime);
+
+        int a = 5;
+        int x = a+5/2;
+        System.out.println(x);
     }
 }
