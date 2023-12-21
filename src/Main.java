@@ -96,5 +96,7 @@ public class Main {
         int a = 5;
         int x = a+5/2;
         System.out.println(x);
+
+        System.out.println("Строка для смерживания");
     }
 }
