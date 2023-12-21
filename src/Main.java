@@ -101,5 +101,7 @@ public class Main {
 
         System.out.println("Вот это строка будет в конфликте");
 
+        System.out.println("1+1");
+
     }
 }
